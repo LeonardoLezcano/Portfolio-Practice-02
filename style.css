@@ -65,6 +65,7 @@ ul li a:hover {
 }
 
 /* Home Text */
+
 .home-text {
   max-width: 500px;
 }
@@ -177,4 +178,36 @@ ul li a:hover {
 .about-text a:hover {
   background-color: var(--second-color);
   box-shadow: 0 10px 34px rgba(0, 0, 0, 0.14);
+}
+.services-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.services-content .box {
+  padding: 40px 20px;
+  background: var(--second-color);
+  color: #fff;
+  max-width: 320px;
+  text-align: center;
+  margin: 16px;
+  transition: 0.3s;
+}
+.box img {
+  height: 45px;
+}
+.box h1 {
+  font-size: 1.3rem;
+}
+.box p {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  font-weight: 300;
+}
+.services-content .box:hover {
+  transform: translateY(-10px);
+  background: var(--main-color);
+  transition: 0.3s;
+  cursor: pointer;
 }
