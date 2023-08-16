@@ -15,15 +15,15 @@
   <body>
     <nav>
       <a href="#" class="logo">Casey</a>
-      <div class="toggle"></div>
+      <div class="toggle" onclick="toggleMenu();"></div>
 
       <!-- Menu -->
       <ul class="menu">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#services">Service</a></li>
-        <li><a href="#work">Work</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+        <li><a href="#about" onclick="toggleMenu();">About</a></li>
+        <li><a href="#services" onclick="toggleMenu();">Service</a></li>
+        <li><a href="#work" onclick="toggleMenu();">Work</a></li>
+        <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
       </ul>
     </nav>
     <!-- Main Text and Image -->
@@ -197,5 +197,8 @@
     <div class="copyright">
       <p>&#169; CarpoolVenom All Right Reserved</p>
     </div>
+
+    <!-- Link JS -->
+    <script src="main.js"></script>
   </body>
 </html>
